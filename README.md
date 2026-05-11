@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Urban Prism AI-Ecommerce
 
-## Getting Started
+**Urban Prism** is a high-performance, full-stack e-commerce platform developed during my 2026 internship. It combines a modern shopping experience with AI-powered tools and global accessibility features.
 
-First, run the development server:
+## 🌟 Project Highlights
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dual-Role Access:** Separate, secure login and dashboard flows for **Admins** and **Users**.
+- **AI Product Description Generator:** A built-in AI tool that helps sellers generate professional, high-converting product descriptions instantly.
+- **Global Ready:** Integrated multi-language support allowing the entire platform to be translated into **3 different languages** with a single click.
+- **Secure Authentication:** Features a robust 6-digit **OTP (One-Time Password)** verification system to ensure account security.
+- **Modern Tech Stack:** Built with the latest **Next.js 16 App Router** for lightning-fast performance and SEO optimization.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Built With
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+*   **Framework:** [Next.js 16](https://nextjs.org/) (React)
+*   **Language:** [TypeScript](https://www.typescriptlang.org/) for type-safe, reliable code.
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/) for a fully responsive, mobile-first design.
+*   **Validation:** [Zod](https://zod.dev/) & [React Hook Form](https://react-hook-form.com/) for secure and smooth form handling.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+### Prerequisites
+Make sure you have **Node.js** installed on your machine.
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/Chakshumodgil/prism-ai-ecommerce.git](https://github.com/Chakshumodgil/prism-ai-ecommerce.git)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependencies:**
+   ```bash
+   npm install
 
-## Deploy on Vercel
+2. **Install dependencies:**
+   ```bash
+   npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Set up Environment Variables:**
+   Create a `.env.local` file in the root directory and add your necessary keys (Database, AI API keys, etc.).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Run the app:**
+   ```bash
+   npm run dev
+
+### Project Structure
+
+##### /src/app/(auth) - Contains the secure login, register, and OTP verification logic.
+
+##### /src/app/admin - The dedicated administrative control panel.
+
+##### /src/components - Reusable UI components (Buttons, Inputs, Navbar).
+
+##### /src/utils/aiGenerator.ts - The core logic for the AI description tool.
+
+---
+*Developed by **Chakshu Modgil** | 2026 Internship Project*
